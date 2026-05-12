@@ -1,0 +1,50 @@
+# Laravel
+/vendor
+node_modules
+/public/hot
+/public/build
+/storage/*.key
+/.env
+.env.backup
+/.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vagrant
+/.vscode
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+storage/logs/
+
+# Cache
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+bootstrap/cache/
+
+# Environment
+.env.local
+.env.production
+.env.staging
+
+# Database
+*.sqlite
+*.db
+
+# Media (if storing locally)
+public/images/
+public/uploads/
+
+# Composer
+composer.lock
+
+# Node
+package-lock.json
+yarn.lock
